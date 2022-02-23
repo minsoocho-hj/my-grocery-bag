@@ -1,0 +1,126 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  width: 400px;
+  height: 700px;
+  border-radius: 50px;
+  background: #ffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+/* grocery list */
+
+.item-list {
+  font-size: 1.5rem;
+  list-style: none;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-title {
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.item-count {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: powderblue;
+  color: #ffff;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  margin: 0 0.1em;
+  background-color: transparent;
+  border-style: none;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+/* groceries */
+.groceries-list {
+  width: 350px;
+  height: 400px;
+  padding-left: 0;
+  overflow: scroll;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.nav-count {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: powderblue;
+  color: #ffff;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+/* add input form */
+
+.add-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-add {
+  width: 200px;
+  height: 30px;
+  border-style: none;
+  border-bottom: paleturquoise;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.input-add:focus {
+  color: black;
+}
+
+.btn-add {
+  background-color: powderblue;
+  color: #ffff;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.btn-reset {
+  width: 180px;
+  height: 30px;
+  background-color: powderblue;
+  color: #ffff;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1rem;
+}
