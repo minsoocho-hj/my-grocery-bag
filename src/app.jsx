@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/navbar";
 import Groceries from "./components/groceries";
+
 import "./app.css";
 
 export default class App extends Component {
