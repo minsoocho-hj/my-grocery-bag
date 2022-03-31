@@ -2,8 +2,6 @@ import React, { PureComponent } from "react";
 
 export default class Navbar extends PureComponent {
   render() {
-    console.log("navbar");
-
     return (
       <div>
         <nav>
